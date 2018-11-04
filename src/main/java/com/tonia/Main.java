@@ -2,9 +2,9 @@ package com.tonia;
 
 public class Main {
     public static void main(String[] args) {
-        int k = 1;
-        for(int i=2; k <= 20; i=i*2) {
-            k++;
+        int i=2;
+        for(int k = 1; k <= 20;k++ ) {
+            i=i*2;
             System.out.println(i);
         }
 
